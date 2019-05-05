@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#bio-paragraphs {
+    line-height: 175%;
+    font-size: 16px;
+}
+#folio-paragraphs {
+    line-height: 150%;
+}
+
+.page-footer {
+    height: 75px;
+}
+
+.page-footer li {
+    display: inline-block;
+}
+
+#githubIcon,
+#linkedInIcon {
+    width: 35px;
+    height: 35px;
+}
