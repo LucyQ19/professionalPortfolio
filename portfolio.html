@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -19,285 +18,366 @@
   </head>
 
   <body>
-    <nav class="grey darken-4">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><i class="material-icons">star_border</i>LucyQ</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html"><i class="material-icons right">loyalty</i>About</a></li>
-                <li><a href="portfolio.html"><i class="material-icons right">create</i>Portfolio</a></li>
-                <li><a href="contact.html"><i class="material-icons right">phone_iphone</i>Contact</a></li>
-            </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><i class="far fa-star"></i> LucyQ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-heart"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">About <i class="fas fa-hand-peace"></i><span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio <i class="fas fa-paint-brush"></i></a>
+              <a class="nav-item nav-link" href="contact.html">Contact <i class="fas fa-mobile-alt"></i></a>
         </div>
+      </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html"><i class="material-icons right">loyalty</i>About</a></li>
-        <li><a href="portfolio.html"><i class="material-icons right">create</i>Portfolio</a></li>
-        <li><a href="contact.html"><i class="material-icons right">phone_iphone</i>Contact</a></li>
-    </ul>
-
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <h2>Portfolio</h2>
-        </div>
-        
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/wordGuessGame.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Word Guess Game<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>Friends</em> Word Guess Game<i class="material-icons right">close</i></span>
-                <br>
-                <p id="folio-paragraphs">This app is a simplified version of hangman made out of javascript.  It uses an on-key event listener that keeps track of the letters the player guesses on the keyboard.  It keeps track of the letters that player has chosen as well as his/her wins or losses.  When the player wins, an animated GIF displays on the screen that corresponds to the word that the player has correctly guessed.</p>
-                <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/wordGuessGame" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://lucyq19.github.io/wordGuessGame/" target="_blank">Website</a>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/crystalCollectorGame.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Crystal Collector<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>Crystal Collector</em><i class="material-icons right">close</i></span>
-                  <br>
-                <p id="folio-paragraphs">This app is a number-guessing game.  At the start of the game, the player is shown a randomly-generated number between 19 and 120.  The player clicks on one of the four crystal to add a specific amount of points to his/her total score.  The value of each crystal is hidden till the player clicks on it.  The player wins by matching his/her total score to the game score. </p>
-                  <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                  <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/crystalCollector" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://lucyq19.github.io/crystalCollector/" target="_blank">Website</a>
-              </div>
-            </div>
+          <div class="col-sm-12">
+            <h1>Portfolio</h1>
+            <hr>
           </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/wordGuessGame.png" class="img-fluid" alt="Word Guess Game">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="wordBtn">Word Guess Game</button>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/images/crystalCollectorGame.png" class="img-fluid" alt="Crystal Collector">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="crystalBtn">Crystal Collector</button>
+          </div>
+        </div>
+          <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/triviaGame.png" class="img-fluid" alt="Trivia Game">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="triviaBtn">Trivia Game</button>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/images/giphyAPI.png" class="img-fluid" alt="Giphy API">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="giphyBtn">Giphy API</button>
+          </div>
+        </div>
+          <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/trainScheduler.png" class="img-fluid" alt="Train Scheduler">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="trainBtn">Train Scheduler</button>
+          </div>
 
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/triviaGame.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Trivia Game<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>Daria</em> Trivia Game<i class="material-icons right">close</i></span>
-                <br>
-                <p id="folio-paragraphs"> This app is a timed trivia game inspired by the 90's TV show <em>Daria</em>. The player only has fifteen minutes to answer each question.  After every question is answered, a final scorecard displays revealing the number of questions answer correctly, incorrectly, or not at all.  Then it gives the player an option to restart the game. </p>
-                <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/triviaGame" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://lucyq19.github.io/triviaGame/" target="_blank">Website</a>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/giphyAPI.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">GIFtastic App<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>Zoo Animal</em> Giphy API<i class="material-icons right">close</i></span>
-                <br>
-                <p id="folio-paragraphs">This app makes an AJAX call to the GIPHY API to create a webpage that populates with zoo animals gifs when the user clicks on a button.  The user clicks on the gif to animate it, and clicks again to pause it.  Most importantly, the user may create his/her own button of a zoo animal of his/her choice.</p>
-                <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/giphyAPI" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://lucyq19.github.io/giphyAPI/" target="_blank">Website</a>
-              </div>
-            </div>
+          <div class="col-sm-4">
+            <img src="assets/images/groupProject1.png" class="img-fluid" alt="KC hotSpot">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="musicBtn">Group Project 1</button>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/trainScheduler.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Train Scheduler<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>Always on Time</em> Train Scheduler<i class="material-icons right">close</i></span>
-                <br>
-                <p id="folio-paragraphs">This app is a Firebase-backed train scheduler.  It uses Firebase to host a globally available set of data that will be retrieved and manipulated using Moment.js to provide up-to-date information about the arrival times and minutes until arrival of various trains that the user inputs.  </p>
-                <br>
-                <p id="folio-paragraphs" >Click on a button to the see either the code or the deployed version of the website:</p>
-                <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/trainScheduler" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://lucyq19.github.io/trainScheduler/" target="_blank">Website</a>
-              </div>
-            </div>
+          <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/liriNodeApp.png" class="img-fluid" alt="Liri Node App">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="liriBtn">Liri Node App</button>
           </div>
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/groupProject1.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Group Project 1<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>KC hotSpot</em><i class="material-icons right">close</i></span>
-                <br>
-                <p id="folio-paragraphs">This app helps the locals of Kansas City, Missouri to find musical events according to genre and location.  The user clicks on a genre button, and the website dynamically creates local musical events based on that genre, using the API's of both Ticketmaster and Bands-in-Town.  It gives the user: the artist's name, the date and time of the musical event, the location of the venue, and an url to buy tickets for it.</p>
-                <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                <br>
-                <a class="waves-effect waves-light btn" href="https://github.com/srobfillingim/Project1Group4" target="_blank">Code</a>
-                <a class="waves-effect waves-light btn" href="https://srobfillingim.github.io/Project1Group4/" target="_blank">Website</a>
-              </div>
-            </div>
+          <div class="col-sm-4">
+            <img src="assets/images/BAMazon.png" class="img-fluid" alt="BAMazon">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="BAMazonBtn">BAMazon</button>
           </div>
         </div>
-
-        <div class="row">
-            <div class="col s12 m6">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/liriNodeApp.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">liriNodeApp<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"><em>liriNodeApp</em><i class="material-icons right">close</i></span>
-                  <br>
-                  <p id="folio-paragraphs"> This is LIRI (Lanaguage Interpretations and Recognition Interface).  It is a command line node app that takes in user inputs given specific command and returns specific data back to the user. The user has the options of using these four commands along with his/her own inputs: concert-this, spotify-this-song, movie-this, and do-what-it-says.</p>
-                  <br>
-                  <p id="folio-paragraphs">Click on a button to the see either the code on GitHub:</p>
-                  <br>
-                  <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/liriNodeApp" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m6">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/BAMazon.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">BAMazon<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"><em>BAMazon</em><i class="material-icons right">close</i></span>
-                  <br>
-                  <p id="folio-paragraphs">This app gives the user the option to purchase from the amazing BAMazon store, or the manager the option to view products for sale, to view products that are low in stock, to add new products, or to add stock to an existing product.  A table displays, consisting of an item ID, product name, department name, price, and stock quantity.</p>
-                  <br>
-                  <p id="folio-paragraphs">Click on a button to the see the code on GitHub:</p>
-                  <br>
-                  <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/bamazon" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/images/friendFinder.png">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">friendFinder<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><em>friendFinder App</em><i class="material-icons right">close</i></span>
-                    <br>
-                    <p id="folio-paragraphs">friendFinder matches users to new friends based on their answers to a ten question survey, inspired by the 90's TV show <em>Buffy the Vampire Slayer</em>.  This app takes in user's answers, compares them with other users' answers , and gives the user a name and photo of a new friend with the greatest compatibility.</p>
-                    <br>
-                    <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                    <br>
-                    <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/friendFinder" target="_blank">Code</a>
-                    <a class="waves-effect waves-light btn" href="https://pure-reef-62124.herokuapp.com/" target="_blank">Website</a>
-                  </div>
-                </div>
-              </div>
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/eatDaBurger.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">eatDaBurger<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><em>eatDaBurger App</em><i class="material-icons right">close</i></span>
-                 <br>
-                <p id="folio-paragraphs">eatDaBurger! is a burger app that lets users input the name of burgers they'd like to eat. Whenever a user submits the name of the burger s/he created, the app displays the burger on the New Burgers side of the page waiting to be devoured.  Each of the burgers created have an Eat-It button beside it.  When the user clicks on it, the burger moves to the Burgers Devoured side.  Each of the burgers on the Burgers Devoured side have a Delete-It button beside it.  When the user clicks on it, the burger is deleted.</p>
-                  <br>
-                <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                  <br>
-                    <a class="waves-effect waves-light btn" href="https://github.com/LucyQ19/eatDaBurger" target="_blank">Code</a>
-                    <a class="waves-effect waves-light btn" href=" https://fast-ridge-27781.herokuapp.com/" target="_blank">Website</a>
-                </div>
-            </div>
+          <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/friendFinder.png" class="img-fluid" alt="Friend Finder">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="friendBtn">Friend Finder</button>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/images/eatDaBurger.png" class="img-fluid" alt="Eat Da Burger">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="burgerBtn">Eat Da Burger</button>
           </div>
         </div>
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/images/petVenueReview.png">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Group Project 2 <i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><em>petVenueReview App</em><i class="material-icons right">close</i></span>
-                    <br>
-                    <p id="folio-paragraphs">This app helps pet owners to find, track, and share their experiences of a variety  pet-friendly venues (hotels, restaurant, veterinarians, and pet parks) across any city.  It uses Passport.js to allow users to create their and to verify their passwords.</p>
-                    <br>
-                    <p id="folio-paragraphs">Click on a button to the see either the code or the deployed version of the website:</p>
-                    <br>
-                    <a class="waves-effect waves-light btn" href="https://github.com/phattaw/Project2" target="_blank">Code</a>
-                    <a class="waves-effect waves-light btn" href="https://pet-venue-review.herokuapp.com/" target="_blank">Website</a>
-                  </div>
-                </div>
-              </div>
-              </div>
+          <br>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="assets/images/petVenueReview.png" class="img-fluid" alt="Pet Venue Review">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="petBtn">Pet Venue Review</button>
+          </div>
+          <div class="col-sm-4">
+          </div>
+        </div>
       </div>
+      <br>
     </main>
 
-    <footer class="page-footer grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <ul class="center-align">
-              <li>© LucyQ 2019</li>
-              <li><a href="https://github.com/LucyQ19" target="_blank"><img id="githubIcon" src="assets/images/gitHubIcon.svg"></a></li>
-              <li><a href="https://www.linkedin.com/in/lucy-quinn-2a756a178/" target="_blank"><img id="linkedInIcon" src="assets/images/linkInIcon.png"></a></li>
-            </ul>
+    <footer>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+          <ul class="row">
+            <li id="footerText">© LucyQ 2019</li>
+            <li><a href="https://github.com/LucyQ19" target="_blank"><img id="githubIcon" src="assets/images/gitHubIcon.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/lucy-quinn-2a756a178/" target="_blank"><img id="linkedInIcon" src="assets/images/linkInIcon.png"></a></li>
+          </ul>
+        </div>     
+      </nav>
+    </footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="wordModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Word Guess Game</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
           </div>
+          <div class="modal-body">
+            <img src="assets/images/wordGuessGame.png" class="img-fluid" alt="Word Guess Game">
+              <br>
+              <br>
+            <h5>Descripton: </h5>
+              <p>This app is a simplified version of hangman made out of javascript.  It uses an on-key event listener that keeps track of the letters the player guesses on the keyboard.  It keeps track of the letters that player has chosen as well as his/her wins or losses.  When the player wins, an animated GIF displays on the screen that corresponds to the word that the player has correctly guessed.</p>
+              <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                <a class="btn btn-dark" href="https://github.com/LucyQ19/wordGuessGame" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                <a class="btn btn-dark" href="https://lucyq19.github.io/wordGuessGame/" target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
         </div>
-      </footer>
+      </div>
+    </div>
 
-      <script src="https://code.jquery.com/jquery.js"></script>
+    <div class="modal" tabindex="-1" role="dialog" id="crystalModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Crystal Collector Game</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/crystalCollectorGame.png" class="img-fluid" alt="Crystal Collector Game">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app is a number-guessing game.  At the start of the game, the player is shown a randomly-generated number between 19 and 120.  The player clicks on one of the four crystal to add a specific amount of points to his/her total score.  The value of each crystal is hidden till the player clicks on it.  The player wins by matching his/her total score to the game score.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/crystalCollector" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://lucyq19.github.io/crystalCollector/"  target="_blank">Websiten <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <div class="modal" tabindex="-1" role="dialog" id="triviaModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Trivia Game</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/triviaGame.png" class="img-fluid" alt="Trivia Game">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app is a timed trivia game inspired by the 90's TV show <em>Daria</em>. The player only has fifteen minutes to answer each question.  After every question is answered, a final scorecard displays revealing the number of questions answer correctly, incorrectly, or not at all.  Then it gives the player an option to restart the game.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/triviaGame" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://lucyq19.github.io/triviaGame/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
 
-      <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <div class="modal" tabindex="-1" role="dialog" id="giphyModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Giphy API</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/giphyAPI.png" class="img-fluid" alt="Giphy API">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app makes an AJAX call to the GIPHY API to create a webpage that populates with zoo animals gifs when the user clicks on a button.  The user clicks on the gif to animate it, and clicks again to pause it.  Most importantly, the user may create his/her own button of a zoo animal of his/her choice.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/giphyAPI" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://lucyq19.github.io/giphyAPI/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal" tabindex="-1" role="dialog" id="trainModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Train Scheduler</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/trainScheduler.png" class="img-fluid" alt="Train Scheduler">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app is a Firebase-backed train scheduler.  It uses Firebase to host a globally available set of data that will be retrieved and manipulated using Moment.js to provide up-to-date information about the arrival times and minutes until arrival of various trains that the user inputs.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/trainScheduler" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://lucyq19.github.io/trainScheduler/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="musicModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Train Scheduler</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/groupProject1.png" class="img-fluid" alt="KC hotSpot">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app helps the locals of Kansas City, Missouri to find musical events according to genre and location.  The user clicks on a genre button, and the website dynamically creates local musical events based on that genre, using the API's of both Ticketmaster and Bands-in-Town.  It gives the user: the artist's name, the date and time of the musical event, the location of the venue, and an url to buy tickets for it.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/srobfillingim/Project1Group4" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://srobfillingim.github.io/Project1Group4/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="liriModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Liri Node App</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/liriNodeApp.png" class="img-fluid" alt="Liri Node App">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This is LIRI (Lanaguage Interpretations and Recognition Interface).  It is a command line node app that takes in user inputs given specific command and returns specific data back to the user. The user has the options of using these four commands along with his/her own inputs: concert-this, spotify-this-song, movie-this, and do-what-it-says.</p>
+                <p>Click on the button to the see the code:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/liriNodeApp" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+            </div>
+        </div>
+      </div>
+`    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="BAMazonModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">BAMazon App</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/BAMazon.png" class="img-fluid" alt="BAMazon App">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>This app gives the user the option to purchase from the amazing BAMazon store, or the manager the option to view products for sale, to view products that are low in stock, to add new products, or to add stock to an existing product.  A table displays, consisting of an item ID, product name, department name, price, and stock quantity.</p>
+                <p>Click on the button to the see the code:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/bamazon" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="friendModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Friend Finder</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/friendFinder.png" class="img-fluid" alt="Friend Finder">
+                <br>
+                <br>
+              <h5>Descripton: </h5>
+                <p>friendFinder matches users to new friends based on their answers to a ten question survey, inspired by the 90's TV show <em>Buffy the Vampire Slayer</em>.  This app takes in user's answers, compares them with other users' answers , and gives the user a name and photo of a new friend with the greatest compatibility.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/friendFinder" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://pure-reef-62124.herokuapp.com/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="burgerModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Eat Da Burger</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/eatDaBurger.png" class="img-fluid" alt="Eat Da Burger">
+                <br>
+                <br>
+              <h5>Descripton:</h5>
+                <p>eatDaBurger! is a burger app that lets users input the name of burgers they'd like to eat. Whenever a user submits the name of the burger s/he created, the app displays the burger on the New Burgers side of the page waiting to be devoured.  Each of the burgers created have an Eat-It button beside it.  When the user clicks on it, the burger moves to the Burgers Devoured side.  Each of the burgers on the Burgers Devoured side have a Delete-It button beside it.  When the user clicks on it, the burger is deleted.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/LucyQ19/eatDaBurger" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://fast-ridge-27781.herokuapp.com/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="petModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Pet Venue Review</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/petVenueReview.png" class="img-fluid" alt="Pet Venue Review">
+                <br>
+                <br>
+              <h5>Descripton:</h5>
+                <p>This app helps pet owners to find, track, and share their experiences of a variety  pet-friendly venues (hotels, restaurant, veterinarians, and pet parks) across any city.  It uses Passport.js to allow users to create their and to verify their passwords.</p>
+                <p>Click on a button to the see either the code or the deployed version of the website:</p>
+                  <a class="btn btn-dark" href="https://github.com/phattaw/Project2" target="_blank">Code <i class="fas fa-hashtag"></i></a>
+                  <a class="btn btn-dark" href="https://pet-venue-review.herokuapp.com/"  target="_blank">Website <i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
   </body>
 </html>
