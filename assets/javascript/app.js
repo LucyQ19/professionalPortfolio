@@ -88,4 +88,12 @@ $(document).ready(function(){
   
   });
 
+  $("#reactBtn").on("click", function(event) {
+  
+    event.preventDefault();
+
+    $("#reactModal").modal("show");
+
+});
+
 });
