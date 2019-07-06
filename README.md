@@ -4,5 +4,5 @@
 
 This is my portfolio using the Bootstrap CSS framework.
 
-### Thank you for visiting my github!
+### Thank you for visiting my GitHub!
 Enjoy looking at my portfolio here: https://lucyq19.github.io/professionalPortfolio/
