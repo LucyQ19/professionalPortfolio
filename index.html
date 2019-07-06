@@ -1,83 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-
+    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Portfolio | Lucy Quinn</title>
+    <title>About Me | Lucy Quinn</title>
 
   </head>
-
   <body>
-    <nav class="grey darken-4">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"><i class="material-icons">star_border</i>LucyQ</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html"><i class="material-icons right">loyalty</i>About</a></li>
-          <li><a href="portfolio.html"><i class="material-icons right">create</i>Portfolio</a></li>
-          <li><a href="contact.html"><i class="material-icons right">phone_iphone</i>Contact</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><i class="far fa-star"></i> LucyQ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-heart"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">About <i class="fas fa-hand-peace"></i><span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio <i class="fas fa-paint-brush"></i></a>
+              <a class="nav-item nav-link" href="contact.html">Contact <i class="fas fa-mobile-alt"></i></a>
+        </div>
       </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="index.html"><i class="material-icons right">loyalty</i>About</a></li>
-      <li><a href="portfolio.html"><i class="material-icons right">create</i>Portfolio</a></li>
-      <li><a href="contact.html"><i class="material-icons right">phone_iphone</i>Contact</a></li>
-    </ul>
-
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <h2>About Me</h2>
+          <div class="col-sm-12"> 
+            <h1>Lucy Quinn</h1>
+            <hr>
+          </div>
         </div>
-
         <div class="row">
-          <div class="col s3">
-            <img class="responsive-img" src="assets/images/QuinnLR.jpg">
+          <div class="col-sm-2" id="bio-image">
+            <img src="assets/images/QuinnLR.jpg" class="img-fluid" alt="Lucy Quinn">
           </div>
-          <div class="col s9">
-              <p id="bio-paragraphs">Hello! I am warm, friendly, and energetic.  Lucy is the perfect name for me, because I am a lot like Lucy from the comic strip <em>Peanuts</em>.  Basically, I love listening to other people's problem and telling them what to do.  I am based in Kansas City, Missouri where I live with my dog, Charlie Brown.  He is a beagle like Snoopy.</p>
-              <br>
-              <p id="bio-paragraphs">I lived in Las Vegas for two years where I taught fourth and second grade.  Out there, I learned that the desert's heat and the teacher's life was not for me.  Most of all, I missed Kansas City with its cloudy days, its changing seasons, and its friendly people.  I decided to move back home, and embark on a new adventure of becoming a full-stack web developer.</p>
-              <br>
-              <p id="bio-paragraphs">I am a full-stack web developer with experience with HTML, CSS using both Bootstrap and Materialize CSS frameworks, and Javascript and its many libraries.  I graduated from the KU Coding Bootcamp on its Edward Campus in Overland Park, Kansas.  In a previous career, I was a classroom teacher.  When I started most of my students couldn't read or write, I had to develop curriculum and processes with the help of technology to get the majority of my students on grade-level for both reading and writing.  I learned how to think criticially and strategically, how to communicate effectively, and how to lead others with positive reinforcements.  As a web developer, I bring determination and passion to all of my projects in order to continue mastering my web development abilities and skills.</p>
-              <br>
-              <p id="bio-paragraphs">Most importantly, I would love to get a cup of coffee or tea with you to discuss how we could start a positive change in your personal or professional life with web development and design.  Please contact me either through email lucyq19@gmail.com or phone 816-679-0822.</p>
+          <div class="col-sm-9">
+            <p id="bio-paragraphs">Hello! I am warm, friendly, and energetic.  Lucy is the perfect name for me, because I am a lot like Lucy from the comic strip <em>Peanuts</em>.  Basically, I love listening to other people's problem and telling them what to do.  I am based in Kansas City, Missouri where I live with my dog, Charlie Brown.  He is a beagle like Snoopy.</p>
+            <p id="bio-paragraphs">I lived in Las Vegas for two years where I taught fourth and second grade.  Out there, I learned that the desert's heat and the teacher's life was not for me.  Most of all, I missed Kansas City with its cloudy days, its changing seasons, and its friendly people.  I decided to move back home, and embark on a new adventure of becoming a full-stack web developer.</p>
+            <p id="bio-paragraphs">I am a full-stack web developer with experience with HTML, CSS using both Bootstrap and Materialize CSS frameworks, and Javascript and its many libraries.  I graduated from the KU Coding Bootcamp on its Edward Campus in Overland Park, Kansas.  In a previous career, I was a classroom teacher.  When I started most of my students couldn't read or write, I had to develop curriculum and processes with the help of technology to get the majority of my students on grade-level for both reading and writing.  I learned how to think criticially and strategically, how to communicate effectively, and how to lead others with positive reinforcements.  As a web developer, I bring determination and passion to all of my projects in order to continue mastering my web development abilities and skills.</p>
+            <p id="bio-paragraphs">Most importantly, I would love to get a cup of coffee or tea with you to discuss how we could start a positive change in your personal or professional life with web development and design.  Please contact me either through email lucyq19@gmail.com or phone 816-679-0822.</p>
           </div>
+        </div>
       </div>
     </main>
 
-    <footer class="page-footer grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <ul class="center-align">
-              <li>© LucyQ 2019 </li>
-              <li><a href="https://github.com/LucyQ19" target="_blank"><img id="githubIcon" src="assets/images/gitHubIcon.svg"></a></li>
-              <li><a href="https://www.linkedin.com/in/lucy-quinn-2a756a178/" target="_blank"><img id="linkedInIcon" src="assets/images/linkInIcon.png"></a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+    <footer>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+          <ul class="row">
+            <li id="footerText">© LucyQ 2019</li>
+            <li><a href="https://github.com/LucyQ19" target="_blank"><img id="githubIcon" src="assets/images/gitHubIcon.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/lucy-quinn-2a756a178/" target="_blank"><img id="linkedInIcon" src="assets/images/linkInIcon.png"></a></li>
+          </ul>
+        </div>     
+      </nav>
+    </footer>
 
-      <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      
-      <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
