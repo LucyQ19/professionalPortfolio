@@ -1,6 +1,6 @@
 # professionalPortfolio
 
-![Image of professionalPortfolio](./images/professionalPortfolio.png)
+![Image of professionalPortfolio](./assets/images/professionalPortfolio.png)
 
 This is my portfolio using the Bootstrap CSS framework.
 
