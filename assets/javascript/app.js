@@ -96,4 +96,12 @@ $(document).ready(function(){
 
 });
 
+$("#lmsBtn").on("click", function(event) {
+  
+    event.preventDefault();
+
+    $("#lmsModal").modal("show");
+
+});
+
 });
